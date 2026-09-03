@@ -1,3 +1,9 @@
+import unittest
 from hello import message
-def test_message():
-    assert message() == "Version 2"
+
+class TestMessage(unittest.TestCase):
+    def test_message(self):
+        self.assertEqual(message(), "Version 2")
+
+if __name__ == "__main__":
+    unittest.main()
