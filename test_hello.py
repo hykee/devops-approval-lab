@@ -3,7 +3,7 @@ from hello import message
 
 class TestMessage(unittest.TestCase):
     def test_message(self):
-        self.assertEqual(message(), "Version 3")
+        self.assertEqual(message(), "Version 4")
 
 if __name__ == "__main__":
     unittest.main()
