@@ -1,5 +1,5 @@
 def message():
-    return "Version 4"
+    return "Version 5"
 
 if __name__ == "__main__":
     print(message())
